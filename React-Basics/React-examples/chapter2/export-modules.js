@@ -4,7 +4,7 @@ export const log(message, timestamp) => console.log(`${timestamp.toString()}: ${
 
 // export only one var
 
-const free  = new Expendition("Mt. Freel",2,["water","snak"])
+const free = new Expendition("Mt. Freel", 2, ["water", "snak"])
 
-export default free 
+export default free
 
