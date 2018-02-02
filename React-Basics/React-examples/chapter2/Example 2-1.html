@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Example 2-1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- <script src="Example 2-1.js"></script> -->
+</head>
+<body id="hello">
+    
+</body>
+<script>
+
+    var article = new Object()
+    article.title = 'This is the title'
+    article.body = 'This is the body'
+
+    document.getElementById('hello').innerHTML =`<section><header><h1>The HTML5 Blog</h1></header><article><h2>${article.title}</h2>${article.body}</article><footer><p>copyright ${new Date().getYear()} | The HTML5 Blog</p></footer></section>`
+
+</script>
+</html>
